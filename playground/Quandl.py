@@ -1,5 +1,5 @@
 import quandl
 import matplotlib.pyplot as plt
 
-mydata = quandl.get('EIA/PET_RWTC_D')
+mydata = quandl.get('WIKI/AAPL')
 print(mydata.head())
