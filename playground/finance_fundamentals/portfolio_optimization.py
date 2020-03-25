@@ -18,7 +18,7 @@ stocks.columns = ['aapl', 'csco', 'ibm', 'amzn']
 
 log_returns = np.log(stocks / stocks.shift(1))
 
-weights = np.array(np.random.random(4))
+weights = np.array(np.random.randint(4))
 weights = weights/np.sum(weights)
 print(weights)
 
